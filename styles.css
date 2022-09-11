@@ -1,0 +1,77 @@
+#title{
+    margin-bottom: 0px;
+  }
+  
+  #goal{
+    margin: 3px;
+  }
+  
+  #writing>h3,#writing>h2{
+    margin: 8px;
+  }
+  
+  canvas{
+    border: 5px solid black;
+    background-color: white;
+    padding: 2px;
+    margin: 0;
+  }
+  
+  #body{
+    width: 700px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+  
+  #body>*{
+    font-family: Russo One;
+    margin: 20px;
+  }
+  
+  #writing{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1,p{
+    font-family: Russo One;
+  }
+  
+  #writing>*{
+    margin: 20px;
+  }
+  
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    justify-content: center;
+  }
+  
+  button{
+    font-family: Russo One;
+    border: 2px solid black;
+  }
+  
+  #progress{
+    box-sizing: border-box;
+    width: 40px;
+    background-color: rgb(139,186,79);
+    border: 2px solid black;
+  }
+  
+  #bar{
+    background-color: white;
+  }
+  
+  #left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
