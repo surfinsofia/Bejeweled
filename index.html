@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Russo One">
+    <link rel="stylesheet" href="bejeweled.css">
+
+    <title>!Bejeweled</title>
+
+  </head>
+  <body>
+
+    <h1 id="title">!Bejeweled</h1>
+    
+    <p>Press New Game to Start</p>
+
+    <div id="body">
+
+      <div id="writing">
+        <h2 id="score">Score: </h2>
+        <h3 id="level">Level: </h3>
+        <h3 id="highscore">High Score: </h3>
+        <button id="new">New Game</button>
+        <button id="hint">Hint</button>
+        <button id="quit">Quit Game</button>
+      </div>
+
+      <div id="left">
+        <p id="goal">100</p>
+        <div id="progress" style="height:250px">
+          <div id="bar" style="height:100%"></div>
+        </div>
+      </div>
+
+      <canvas id="mycanvas" width="320" height="320"></canvas>
+
+    </div>
+    
+    <script src="bejeweled.js"></script>
+
+  </body>
+</html>
